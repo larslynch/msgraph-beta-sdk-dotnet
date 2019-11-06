@@ -48,6 +48,30 @@ namespace Microsoft.Graph
         /// </summary>
         /// <returns>The <see cref="IReportRootUserCredentialUsageDetailsCollectionRequestBuilder"/>.</returns>
         IReportRootUserCredentialUsageDetailsCollectionRequestBuilder UserCredentialUsageDetails { get; }
+
+        /// <summary>
+        /// Gets the request builder for DailyPrintUsageSummariesByUser.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootDailyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder"/>.</returns>
+        IReportRootDailyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder DailyPrintUsageSummariesByUser { get; }
+
+        /// <summary>
+        /// Gets the request builder for MonthlyPrintUsageSummariesByUser.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootMonthlyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder"/>.</returns>
+        IReportRootMonthlyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder MonthlyPrintUsageSummariesByUser { get; }
+
+        /// <summary>
+        /// Gets the request builder for DailyPrintUsageSummariesByPrinter.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootDailyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder"/>.</returns>
+        IReportRootDailyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder DailyPrintUsageSummariesByPrinter { get; }
+
+        /// <summary>
+        /// Gets the request builder for MonthlyPrintUsageSummariesByPrinter.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootMonthlyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder"/>.</returns>
+        IReportRootMonthlyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder MonthlyPrintUsageSummariesByPrinter { get; }
     
         /// <summary>
         /// Gets the request builder for ReportRootGetAzureADLicenseUsage.

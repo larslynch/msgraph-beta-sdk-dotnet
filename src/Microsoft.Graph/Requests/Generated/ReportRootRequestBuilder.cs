@@ -85,6 +85,54 @@ namespace Microsoft.Graph
                 return new ReportRootUserCredentialUsageDetailsCollectionRequestBuilder(this.AppendSegmentToRequestUrl("userCredentialUsageDetails"), this.Client);
             }
         }
+
+        /// <summary>
+        /// Gets the request builder for DailyPrintUsageSummariesByUser.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootDailyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder"/>.</returns>
+        public IReportRootDailyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder DailyPrintUsageSummariesByUser
+        {
+            get
+            {
+                return new ReportRootDailyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder(this.AppendSegmentToRequestUrl("dailyPrintUsageSummariesByUser"), this.Client);
+            }
+        }
+
+        /// <summary>
+        /// Gets the request builder for MonthlyPrintUsageSummariesByUser.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootMonthlyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder"/>.</returns>
+        public IReportRootMonthlyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder MonthlyPrintUsageSummariesByUser
+        {
+            get
+            {
+                return new ReportRootMonthlyPrintUsageSummariesByUserCollectionWithReferencesRequestBuilder(this.AppendSegmentToRequestUrl("monthlyPrintUsageSummariesByUser"), this.Client);
+            }
+        }
+
+        /// <summary>
+        /// Gets the request builder for DailyPrintUsageSummariesByPrinter.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootDailyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder"/>.</returns>
+        public IReportRootDailyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder DailyPrintUsageSummariesByPrinter
+        {
+            get
+            {
+                return new ReportRootDailyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder(this.AppendSegmentToRequestUrl("dailyPrintUsageSummariesByPrinter"), this.Client);
+            }
+        }
+
+        /// <summary>
+        /// Gets the request builder for MonthlyPrintUsageSummariesByPrinter.
+        /// </summary>
+        /// <returns>The <see cref="IReportRootMonthlyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder"/>.</returns>
+        public IReportRootMonthlyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder MonthlyPrintUsageSummariesByPrinter
+        {
+            get
+            {
+                return new ReportRootMonthlyPrintUsageSummariesByPrinterCollectionWithReferencesRequestBuilder(this.AppendSegmentToRequestUrl("monthlyPrintUsageSummariesByPrinter"), this.Client);
+            }
+        }
     
         /// <summary>
         /// Gets the request builder for ReportRootGetAzureADLicenseUsage.
