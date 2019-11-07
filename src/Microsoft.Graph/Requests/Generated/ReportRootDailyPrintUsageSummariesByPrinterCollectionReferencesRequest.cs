@@ -13,6 +13,7 @@ namespace Microsoft.Graph
     using System.Collections.Generic;
     using System.Net.Http;
     using System.Threading;
+    using System.Threading.Tasks;
 
     /// <summary>
     /// The type ReportRootDailyPrintUsageSummariesByPrinterCollectionReferencesRequest.
@@ -32,6 +33,15 @@ namespace Microsoft.Graph
             : base(requestUrl, client, options)
         {
         }
-        
+
+        public Task AddAsync(PrintUsageSummaryByPrinter PrintUsageSummaryByPrinter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AddAsync(PrintUsageSummaryByPrinter PrintUsageSummaryByPrinter, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

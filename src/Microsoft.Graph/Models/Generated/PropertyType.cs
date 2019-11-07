@@ -47,22 +47,22 @@ namespace Microsoft.Graph
         /// <summary>
         /// Collection(String)
         /// </summary>
-        Collection(String) = 5,
-	
+        StringCollection = 5,
+
         /// <summary>
         /// Collection(Int64)
         /// </summary>
-        Collection(Int64) = 6,
+        Int64Collection = 6,
 	
         /// <summary>
         /// Collection(Double)
         /// </summary>
-        Collection(Double) = 7,
+        DoubleCollection = 7,
 	
         /// <summary>
         /// Collection(Date Time)
         /// </summary>
-        Collection(DateTime) = 8,
+        DateTimeCollection = 8,
 	
     }
 }

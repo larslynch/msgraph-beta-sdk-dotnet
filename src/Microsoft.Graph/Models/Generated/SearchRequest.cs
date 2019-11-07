@@ -20,12 +20,12 @@ namespace Microsoft.Graph
     /// </summary>
     [JsonObject(MemberSerialization = MemberSerialization.OptIn)]
     [JsonConverter(typeof(DerivedTypeConverter))]
-    public partial class SearchRequest
+    public partial class SearchRequestObject
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="SearchRequest"/> class.
         /// </summary>
-        public SearchRequest()
+        public SearchRequestObject()
         {
             this.ODataType = "microsoft.graph.searchRequest";
         }

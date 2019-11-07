@@ -55,7 +55,7 @@ namespace Microsoft.Graph
         /// </summary>
         /// <returns>The <see cref="ISearchQueryRequestBuilder"/>.</returns>
         public ISearchQueryRequestBuilder Query(
-            IEnumerable<SearchRequest> requests)
+            IEnumerable<SearchRequestObject> requests)
         {
             return new SearchQueryRequestBuilder(
                 this.AppendSegmentToRequestUrl("microsoft.graph.query"),

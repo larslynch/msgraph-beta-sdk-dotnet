@@ -27,7 +27,7 @@ namespace Microsoft.Graph
         public SearchQueryRequestBuilder(
             string requestUrl,
             IBaseClient client,
-            IEnumerable<SearchRequest> requests)
+            IEnumerable<SearchRequestObject> requests)
             : base(requestUrl, client)
         {
             this.SetParameter("requests", requests, false);

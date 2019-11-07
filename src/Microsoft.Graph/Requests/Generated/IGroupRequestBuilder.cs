@@ -210,7 +210,7 @@ namespace Microsoft.Graph
         /// </summary>
         /// <returns>The <see cref="IGroupEvaluateDynamicMembershipRequestBuilder"/>.</returns>
         IGroupEvaluateDynamicMembershipRequestBuilder EvaluateDynamicMembership(
-            string memberId = null);
+            string memberId = null, string membershipRule = null);
 
         /// <summary>
         /// Gets the request builder for GroupValidateProperties.

@@ -403,12 +403,13 @@ namespace Microsoft.Graph
         /// </summary>
         /// <returns>The <see cref="IGroupEvaluateDynamicMembershipRequestBuilder"/>.</returns>
         public IGroupEvaluateDynamicMembershipRequestBuilder EvaluateDynamicMembership(
-            string memberId = null)
+            string memberId = null, string membershipRule = null)
         {
             return new GroupEvaluateDynamicMembershipRequestBuilder(
                 this.AppendSegmentToRequestUrl("microsoft.graph.evaluateDynamicMembership"),
                 this.Client,
-                memberId);
+                memberId,
+                membershipRule);
         }
 
         /// <summary>
